@@ -13,7 +13,7 @@ title: settle - ///_hyperscript
 ### Description
 
 The `settle` command allows you to synchronize on the CSS transition of an element. It will listen for the
-`transitionend` even on the given element (or `me` if no element is given).
+`transitionend` event on the given element (or `me` if no element is given).
 
 If a `transitionstart` event is not received within 500ms, the command will continue assuming that no
 transition will occur.
